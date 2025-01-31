@@ -11,11 +11,11 @@ To build, train, and evaluate a Convolutional Neural Network (CNN) for image cla
 
 
 ## Grad-CAM Insights
-- Model-Specific Analysis:
+### Model-Specific Analysis:
 * VGG19: Focuses on object contours and textures. For example, in car images, it highlights wheels and body shape.
 * ResNet50: Attends central object regions. For instance, for animals, it focuses on the head/body rather than the background.
 * EfficientNet-B0: Shows scattered attention patterns, often highlighting unexpected regions (e.g., background elements).
-- Common Patterns:
+### Common Patterns:
 * All models struggle with small objects.
 * Background elements sometimes receive more attention than foreground objects.
 * Best performance observed on high-contrast, centered objects.
